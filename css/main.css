@@ -1,0 +1,230 @@
+.main{
+    font-family: 나눔스퀘어;
+    background-image: url("../image/maingame.png");
+    background-size: 550px 75%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color:antiquewhite;
+}
+div.title{
+    margin-top: 200px;
+    font-size: 50px;
+    font-family: 스웨거 TTF;
+    color:#660033;
+    text-shadow: 1px 1px #B8B8B8;
+}
+.go{
+    margin-top: 220px;
+}
+.go:hover{
+    background-image: url("../image/gamestart(hover).png");
+}
+
+
+#menu{
+    background-color: #ffe6e6;
+    background-image: url("");
+}
+#back:hover{
+    width: 64px;
+    height: 64px;
+    background-image: url(../image/back-hover.png);
+}
+#home:hover{
+    position:relative;
+    background-image: url(../image/home-hover.png);
+}
+.icecream{
+   margin-top: 200px;
+   margin-left: 10px;
+}
+.Bskpic{
+    margin-top: 330px;
+    margin-left: -10%;
+    position: absolute;
+}
+.song{
+    margin-top: 200px;
+    margin-left: 10%;
+}
+.Sngpic{
+    margin-top: 330px;
+    margin-left: -11%;
+    position: absolute;
+}
+.samepic{  
+    margin-top: 200px;
+    margin-left: 10%;
+}
+.Sampic{
+    margin-top: 330px;
+    margin-left: -8%;
+    position: absolute;
+}
+.intro{
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    height: 100px;
+    background-color:rosybrown;    
+}
+.ft{
+    font-family: 나눔스퀘어;
+}
+.ft:hover{
+    text-decoration-line: underline;
+}
+
+
+
+body.intropage{
+    background-color:rosybrown;
+    font-family: 나눔스퀘어;
+}
+.MY{
+    width: 500px;
+    height: 500px;
+}
+.introtd{
+    text-align: justify;
+    padding: 15px;
+}
+.introdiv {
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+body.stbeskin{
+    background-color: #ccffe6;
+    background-image: url("../image/mintchoco.png");
+}
+.start{
+    margin-top: 300px;
+    width: 400px;
+    height: 200px;
+    color:white;
+    background-color: darkseagreen;
+    border-color:darkgreen;
+    text-align: center;
+    font-family: a몬스터;
+    font-size:50px;
+    border-radius: 20px;
+}
+.start:active{
+    background-color: saddlebrown;
+    color:gray;
+}
+
+
+body.beskin{
+    background-color: #ccffe6;
+    background-image: url("../image/mintchoco.png");
+}
+.box{
+    margin-top: 10%;
+    width: 500px;
+    height: 600px;
+    background-color:  #f3f3f3;
+    border: 3px solid #4d2600;
+    border-radius: 30px;
+}
+#inner{
+    margin-top: 20px;
+    width: 450px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 2px solid #4d2600;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 100px;
+}
+.combox{
+    margin-top: 20px;
+    width: 450px;
+    height: 300px;
+    background-color:  #ffffff;
+    border: 2px solid #4d2600;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 100px;
+    color:blue;
+}
+.plus{
+    border: 0px;
+    background-color: #f3f3f3;
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    background-image: url("../image/plus.png");
+}
+.plus:active{
+     background-image: url("../image/plus-hover.png");
+}
+.stop{
+    border: 0px;
+    background-color: #f3f3f3;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    background-image:url("../image/stop.png") ;    
+}
+.stop:active{
+     background-image: url("../image/stop-hover.png");
+}
+
+
+
+body.same{
+    background-color: bisque;
+    
+}
+#F{
+    margin-left: 30%;
+    font-family: 스웨거 TTF;
+    font-size:100px;
+}
+.samepic{
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.td{
+    width: 150px;
+    height: 200px;
+    padding: 0px 0px 0px 0px;
+}
+.image{
+    width: 150px;
+    height: 170px;
+    /*background-image: url(../image/card.png);*/
+}
+.image:hover{
+    margin: 0px 0px 0px 0px;
+    width: 150px;
+    height: 170px;
+    background-image: url(../image/card-hover.png);
+}
+#re{
+    position: absolute;
+    margin-top: 450px;
+    margin-left:200px;
+    width: 64px;
+    height: 64px;
+}
+#re:hover{
+    margin-left:200px;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-image: url(../image/reset-hover.png);
+}
+#text{
+    position: absolute;
+    margin-top: 440px;
+    margin-left:265px;
+    width: 170px;
+    height: 45px;
+}
+
